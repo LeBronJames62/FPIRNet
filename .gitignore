@@ -1,0 +1,26 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local datasets and generated results
+data/
+results/
+
+# Training outputs (keep the released checkpoint)
+ckpt/*
+!ckpt/best.pth
+
+# Logs and local tooling
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

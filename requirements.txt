@@ -1,0 +1,8 @@
+# Keep your working PyTorch / torchvision installation; do not replace the GPU build.
+numpy>=1.24
+Pillow>=10.0
+tqdm>=4.66
+pandas>=2.0
+
+# Optional metric engines (install in the same environment when needed):
+# python -m pip install lpips pyiqa python-doctr
